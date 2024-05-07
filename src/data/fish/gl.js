@@ -5,7 +5,8 @@ export const glFish = [
         name: {
             en: "alewife",
             fr: "gaspareau",
-            pt: "alosa cinzenta"
+            pt: "alosa cinzenta",
+            cn: "大肚鲱"
         },
         difficulty: 0,
         attributes: [
@@ -62,7 +63,8 @@ export const glFish = [
         name: {
             en: "brook trout",
             fr: "omble des fontaines",
-            pt: "truta de riacho"
+            pt: "truta de riacho",
+            cn: "美洲红点鲑"
         },
         difficulty: 0,
         attributes: [
@@ -108,7 +110,8 @@ export const glFish = [
         name: {
             en: "brown trout",
             fr: "truite brune",
-            pt: "truta marisca"
+            pt: "truta marisca",
+            cn: "褐鳟"
         },
         difficulty: 0,
         attributes: [
@@ -158,7 +161,8 @@ export const glFish = [
         name: {
             en: "largemouth bass",
             fr: "achigan à grande bouche",
-            pt: "achigã"
+            pt: "achigã",
+            cn: "大嘴鲈"
         },
         difficulty: 0,
         attributes: [
@@ -208,7 +212,8 @@ export const glFish = [
         name: {
             en: "yellow perch",
             fr: "perchaude",
-            pt: "perca amarela"
+            pt: "perca amarela",
+            cn: "黄鲈"
         },
         difficulty: 0,
         attributes: [
@@ -266,7 +271,8 @@ export const glFish = [
         name: {
             en: "white crappie",
             fr: "crapet calicot",
-            pt: "promoxis"
+            pt: "promoxis",
+            cn: "白莓鲈"
         },
         difficulty: 0,
         attributes: [
@@ -324,7 +330,8 @@ export const glFish = [
         name: {
             en: "white bass",
             fr: "bar blanc",
-            pt: "bass branco"
+            pt: "bass branco",
+            cn: "白鲈"
         },
         difficulty: 0,
         attributes: [
@@ -374,7 +381,8 @@ export const glFish = [
         name: {
             en: "walleye",
             fr: "doré jaune",
-            pt: "picão-verde"
+            pt: "picão-verde",
+            cn: "大眼鲈"
         },
         difficulty: 0,
         attributes: [
@@ -428,7 +436,8 @@ export const glFish = [
         name: {
             en: "sea lamprey",
             fr: "lamproie marine",
-            pt: "lampreia-marinha"
+            pt: "lampreia-marinha",
+            cn: "海七鳃鳗"
         },
         difficulty: 0,
         attributes: [
@@ -490,7 +499,8 @@ export const glFish = [
         name: {
             en: "pink salmon",
             fr: "saumon rose à bosse",
-            pt: "salmão-rosado"
+            pt: "salmão-rosado",
+            cn: "粉鲑"
         },
         difficulty: 0,
         attributes: [
@@ -540,7 +550,8 @@ export const glFish = [
         name: {
             en: "smallmouth bass",
             fr: "achigan à petite bouche",
-            pt: "achigã-boca-pequena"
+            pt: "achigã-boca-pequena",
+            cn: "小嘴鲈"
         },
         difficulty: 0,
         attributes: [
@@ -586,7 +597,8 @@ export const glFish = [
         name: {
             en: "round whitefish",
             fr: "ménomini rond",
-            pt: "peixe branco redondo"
+            pt: "peixe branco redondo",
+            cn: "真柱白鲑"
         },
         difficulty: 0,
         attributes: [
@@ -640,7 +652,8 @@ export const glFish = [
         name: {
             en: "redear sunfish",
             fr: "crapet à oreilles rouges",
-            pt: "poleiro do sol"
+            pt: "poleiro do sol",
+            cn: "红耳太阳鱼"
         },
         difficulty: 0,
         attributes: [
@@ -694,7 +707,8 @@ export const glFish = [
         name: {
             en: "channel catfish",
             fr: "barbue de rivière",
-            pt: "bagre-americano"
+            pt: "bagre-americano",
+            cn: "美洲河鲶"
         },
         difficulty: 1,
         attributes: [
@@ -744,7 +758,8 @@ export const glFish = [
         name: {
             en: "bloater",
             fr: "bloater",
-            pt: "inchado"
+            pt: "inchado",
+            cn: "霍氏白鲑"
         },
         difficulty: 0,
         attributes: [
@@ -805,7 +820,8 @@ export const glFish = [
         name: {
             en: "coho salmon",
             fr: "saumon coho",
-            pt: "salmão-prateado"
+            pt: "salmão-prateado",
+            cn: "银鳟"
         },
         difficulty: 0,
         attributes: [
@@ -860,7 +876,8 @@ export const glFish = [
         name: {
             en: "chinook salmon",
             fr: "saumon royal",
-            pt: "salmão-rei"
+            pt: "salmão-rei",
+            cn: "奇努克鲑"
         },
         difficulty: 1,
         attributes: [
@@ -910,7 +927,8 @@ export const glFish = [
         name: {
             en: "muskie",
             fr: "maskinongé",
-            pt: "lùcio-almiscarado"
+            pt: "lùcio-almiscarado",
+            cn: "北美狗鱼"
         },
         difficulty: 1,
         attributes: [
@@ -968,7 +986,8 @@ export const glFish = [
         name: {
             en: "flathead catfish",
             fr: "poisson-chat à tête plate",
-            pt: "peixe-gato amarelo"
+            pt: "peixe-gato amarelo",
+            cn: "扁头鲶"
         },
         difficulty: 1,
         attributes: [
@@ -1024,7 +1043,8 @@ export const glFish = [
         name: {
             en: "lake trout",
             fr: "le touladi",
-            pt: "truta de lago"
+            pt: "truta de lago",
+            cn: "湖鳟"
         },
         difficulty: 1,
         attributes: [
@@ -1078,7 +1098,8 @@ export const glFish = [
         name: {
             en: "longnose gar",
             fr: "lépisosté osseux",
-            pt: "lepisosteus"
+            pt: "lepisosteus",
+            cn: "长吻雀鳝"
         },
         difficulty: 1,
         attributes: [
@@ -1124,7 +1145,8 @@ export const glFish = [
         name: {
             en: "american eel",
             fr: "anguille d'amérique",
-            pt: "enguia-americana"
+            pt: "enguia-americana",
+            cn: "美洲鳗"
         },
         difficulty: 1,
         attributes: [
@@ -1170,7 +1192,8 @@ export const glFish = [
         name: {
             en: "goldfish",
             fr: "poisson rouge",
-            pt: "quinguio"
+            pt: "quinguio",
+            cn: "金鲫"
         },
         difficulty: 1,
         attributes: [
@@ -1215,7 +1238,8 @@ export const glFish = [
         name: {
             en: "lake sturgeon",
             fr: "esturgeon jaune",
-            pt: "esturjão de lago"
+            pt: "esturjão de lago",
+            cn: "湖鲟"
         },
         difficulty: 1,
         attributes: [
@@ -1261,7 +1285,8 @@ export const glFish = [
         name: {
             en: "bessie",
             fr: "bessie",
-            pt: "bessie"
+            pt: "bessie",
+            cn: "bessie"
         },
         difficulty: 2,
         attributes: [
