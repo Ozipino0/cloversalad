@@ -67,7 +67,19 @@ export function createList(fish, language) {
     figure.appendChild(img);
     const p = document.createElement("p");
     p.setAttribute("class", "is-size-6 fishp");
-    p.innerHTML = fish.name[language] ? fish.name[language] : fish.name.en;
+    p.innerHTML = (fish.name[language] ? fish.name[language] : fish.name.en );
+    const fishTypes = document.createElement("h5")
+    if(fish.type == "common"){
+        fishTypes.setAttribute("style","color: #535559;")
+    }else if(fish.type == "rare"){
+        fishTypes.setAttribute("style","color: #876e2a;")
+    }else if(fish.type == "epic"){
+        fishTypes.setAttribute("style","color: #9a49a8;")
+    }else{
+        fishTypes.setAttribute("style","color: #c9595a;")
+    }
+    fishTypes.innerHTML = fish.type;
+    p.appendChild(fishTypes);
     item.appendChild(p)
     
 
