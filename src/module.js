@@ -68,18 +68,18 @@ export function createList(fish, language) {
     const p = document.createElement("p");
     p.setAttribute("class", "is-size-6 fishp");
     p.innerHTML = (fish.name[language] ? fish.name[language] : fish.name.en );
-    const fishTypes = document.createElement("h5")
+    const fishTypes = document.createElement("p")
     if(fish.type == "common"){
-        fishTypes.setAttribute("style","color: #535559;")
+        p.setAttribute("style","color: #949ba4;")
     }else if(fish.type == "rare"){
-        fishTypes.setAttribute("style","color: #876e2a;")
+        p.setAttribute("style","color: #876e2a;")
     }else if(fish.type == "epic"){
-        fishTypes.setAttribute("style","color: #9a49a8;")
+        p.setAttribute("style","color: #9a49a8;")
     }else{
-        fishTypes.setAttribute("style","color: #c9595a;")
+        p.setAttribute("style","color: #c9595a;")
     }
     fishTypes.innerHTML = fish.type;
-    p.appendChild(fishTypes);
+    
     item.appendChild(p)
     
 
